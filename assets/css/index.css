@@ -1,0 +1,25 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../images/ben-headshot-px.png");
+  background-color: #001122;
+  min-height: 100%;
+  transition: background-image 1s ease-in-out;
+}
+
+.bgimg:hover {
+    background-image: url("../images/ben-headshot_sm.png");
+}
