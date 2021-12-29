@@ -7,3 +7,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
 }
+
+for (let item of document.getElementsByClassName("nav-item")) {
+  item.addEventListener("click", closeNav);
+}
