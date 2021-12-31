@@ -1,0 +1,29 @@
+{
+  "name": "porfolio_bb",
+  "version": "1.0.0",
+  "description": "👋 Hello there!\r 🧍 My name is Ben, and I appreciate you coming to checkout my GitHub!\r 📧 Message me if you have any questions!",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryantellius/porfolio_bb.git"
+  },
+  "author": "Ben Bryant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryantellius/porfolio_bb/issues"
+  },
+  "homepage": "https://github.com/Bryantellius/porfolio_bb#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mailgun-js": "^0.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

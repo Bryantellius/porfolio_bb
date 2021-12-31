@@ -36,11 +36,13 @@ h6 {
   text-decoration: none;
 }
 
-.work1 > img, .work2 > img {
+.work1 > img,
+.work2 > img {
   transition: all 0.75s;
 }
 
-.work1 > img:hover, .work2 > img:hover {
+.work1 > img:hover,
+.work2 > img:hover {
   filter: opacity(0.5);
   cursor: pointer;
 }
@@ -142,4 +144,20 @@ h6 {
   to {
     transform: translateY(0);
   }
+}
+
+/* ALERT */
+.alert {
+  background-color: lightgreen;
+  padding: 0.5rem 2rem;
+  max-width: 300px;
+  width: fit-content;
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 9;
+}
+
+.alert-danger {
+  background-color: tomato;
 }
